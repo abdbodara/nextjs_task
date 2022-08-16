@@ -1,0 +1,72 @@
+.loginmain{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+}
+.loginmain::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../public/asset/images/bg-img.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+}
+.body{
+    display: 'flex';
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 39px -15px rgba(0,0,0,0.75);
+  
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.grid{
+    align-items: center;
+}
+.passdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none !important;
+    color: gray;
+}
+.button{
+    margin-top :24px;
+    margin-bottom:16px;
+    background-color: #4a4545 !important;
+}
+.signup_link{
+     
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.signup_link a{
+    color: gray !important;
+    text-decoration: none;
+
+}
+.signup_link a:hover{
+    text-decoration: underline;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+
+    border-color: #4a4545 !important;
+} 
