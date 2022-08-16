@@ -99,7 +99,7 @@ const Login = () => {
 
 
                         <Box className={styles.signup_link}>
-                            <Link href="#" variant="body2" >
+                            <Link href="/register" variant="body2" >
                                 {"Don't have an account? Sign Up"}
                             </Link>
                         </Box>
