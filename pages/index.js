@@ -22,7 +22,6 @@ import { useSelector } from 'react-redux';
 const theme = createTheme();
 
 const Login = () => {
-    console.log("🚀 ~ file: login.js ~ line 26 ~ Login ~ state", state)
     const SignupSchema = yup.object().shape({
         email: yup.string()
             .required("Email is required")

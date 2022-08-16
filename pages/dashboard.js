@@ -5,7 +5,7 @@ import { DataGrid } from '@mui/x-data-grid'
 import React from 'react'
 import { useGetUsersQuery } from '../stores/services/userApiSlice'
 import styles from '../styles/Dashboard.module.css'
-const dashboard = (props) => {
+const Dashboard = (props) => {
     const {
         data,
         isLoading,
@@ -75,4 +75,4 @@ export function getServerSideProps({ req, res }) {
 
     return response
 }
-export default dashboard
+export default Dashboard
